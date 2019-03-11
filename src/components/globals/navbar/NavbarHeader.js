@@ -11,7 +11,7 @@ export default class NavbarHeader extends Component {
     return (
       <HeaderWrapper>
         <Link to="/">
-          <img src={logo} alt="company name" />
+          <img src={logo} width="100" alt="company name" />
         </Link>
         <FaAlignRight
           className="toggle-icon"
