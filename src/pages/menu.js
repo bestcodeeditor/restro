@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import { PageHeader } from "../utils/Header"
-import menutImage from "../images/bcg/menu.jpg"
+import menutImage from "../images/bcg/menuBcg.jpeg"
 
 import SEO from "../components/seo"
 

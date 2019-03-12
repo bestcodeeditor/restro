@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import { PageHeader } from "../utils"
-import contactImage from "../images/bcg/contact1.jpg"
+import contactImage from "../images/bcg/contactBcg.jpeg"
 
 import SEO from "../components/seo"
 
