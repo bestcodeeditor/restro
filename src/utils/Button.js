@@ -19,5 +19,13 @@ const BannerButton = styled.button`
     cursor: pointer;
   }
 `
+const SectionButton = styled(BannerButton)`
+  color: ${styles.colors.mainBlack};
+  ${styles.border({ color: `${styles.colors.mainBlack}` })};
+  &:hover {
+    background: ${styles.colors.mainBlack};
+    color: ${styles.colors.mainYellow};
+  }
+`
 
-export { BannerButton }
+export { BannerButton, SectionButton }
