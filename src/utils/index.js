@@ -4,6 +4,7 @@ import Banner from "./Banner"
 import { BannerButton, SectionButton } from "./Button"
 import { Section } from "./Section"
 import { Title } from "../utils/Title"
+import { Form, Input, Title1, Title2, Text, Button, Textarea } from "./Theme"
 
 export {
   styles,
@@ -14,4 +15,11 @@ export {
   Section,
   Title,
   SectionButton,
+  Form,
+  Input,
+  Title1,
+  Title2,
+  Text,
+  Button,
+  Textarea,
 }
