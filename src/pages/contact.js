@@ -24,9 +24,9 @@ const ContactPage = () => (
       <Banner title="contact us" subtitle="let's get in touch" />
     </PageHeader>
     <ContactWrapper style={{ margin: "auto", justifyContent: "center" }}>
-      <from
-        action="https://formspree.io/bestcodeeditor@gmail.com"
+      <form
         method="POST"
+        action="https://formspree.io/rajeevkumar2697@gmail.com"
       >
         <Label>
           <Title1>name:</Title1>
@@ -50,10 +50,8 @@ const ContactPage = () => (
           />
         </Label>
 
-        <Button type="submit" value="Send">
-          Submit
-        </Button>
-      </from>
+        <Button type="submit">Submit</Button>
+      </form>
     </ContactWrapper>
   </Layout>
 )
