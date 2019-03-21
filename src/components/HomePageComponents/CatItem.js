@@ -2,6 +2,8 @@ import React from "react"
 import styled from "styled-components"
 import { styles } from "../../utils"
 import Img from "gatsby-image"
+import Rater from "react-rater"
+import "react-rater/lib/react-rater.css"
 
 export default function CatItem({ menus }) {
   const { name, price, ingredients } = menus
@@ -15,6 +17,7 @@ export default function CatItem({ menus }) {
           <h3 className="price"> ₹{price}</h3>
         </div>
         <p className="info">{ingredients}</p>
+        <Rater total={5} rating={4} />
       </div>
     </MenuWrapper>
   )
